@@ -65,19 +65,30 @@ table {
 }
 
 .header > div {
-  background: black;
+  background: transparent;
   color:white;
   border-radius: 10%;
 }
 
 #header-h1 {
   position:absolute;
-  background: black;
+  background: blue;
+  font-weight: 600;
   top: 20px;
   left:50px;
   border-radius: 50%;
   padding:25px 30px;
   font-size: 2rem;
+}
+
+#header-nav {
+  background: rgb(33, 255, 33);
+  margin-right: 30px;
+  color: black;
+  font-size: 1.4rem;
+  font-weight: bolder;
+  padding: 10px 20px;
+  border-radius: 20%;
 }
 
 /* Body */
