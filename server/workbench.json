@@ -1,0 +1,44 @@
+[
+  {
+    "id": 0,
+    "style": "One-handed",
+    "hilt": "Stainless",
+    "color": "Blue"
+  },
+  {
+    "id": 1,
+    "style": "One-handed",
+    "hilt": "Stainless",
+    "color": "Green"
+  },
+  {
+    "id": 1,
+    "style": "One-handed",
+    "hilt": "Aluminum",
+    "color": "Yellow"
+  },
+  {
+    "id": 1,
+    "style": "One-handed",
+    "hilt": "Carbon-fiber",
+    "color": "Purple"
+  },
+  {
+    "id": 1,
+    "style": "One-handed",
+    "hilt": "Bone",
+    "color": "Silver"
+  },
+  {
+    "id": 1,
+    "style": "One-handed",
+    "hilt": "Titanium",
+    "color": "Red"
+  },
+  {
+    "id": 1,
+    "style": "Two-handed",
+    "hilt": "Aluminum",
+    "color": "Red"
+  }
+]
