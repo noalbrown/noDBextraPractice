@@ -41,7 +41,7 @@ class Inventory extends Component {
     return (
       <div key={workbench.id}>
         {this.state.modify ? (
-          <div>
+          <div className="pop-up">
             <input placeholder="Change style" onChange={(e) => {
               this.handleStyle(e)
             }} />
@@ -61,10 +61,10 @@ class Inventory extends Component {
           </div>
         ) : (
             <div>
-              <section className="inventory">
+              <section>
                 <p>A {workbench.style} {workbench.color} saber with a {workbench.hilt} hilt</p>
               </section>
-              <section>
+              <section id="inventory-1">
                 <Options
                   toggleModify={this.toggleModify}
                   deleteItem={deleteItem}

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Options = (props) => {
   return (
-    <div className="options">
+    <div>
       <div id="modify">
         <button onClick={() => props.toggleModify()}>Modify</button>
       </div>

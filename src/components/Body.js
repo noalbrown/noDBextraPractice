@@ -68,12 +68,12 @@ class Body extends Component {
         <section>
           <Creator addWorkbenchItem={this.addWorkbenchItem} />
         </section>
-        <section>
+        <section className="inventory">
           {this.state.workbench.map((workbench) => {
             return <Inventory modifyBackpack={this.modifyBackpack} deleteItem={this.deleteItem} resetItems={this.resetItems} workbench={workbench} />
           })}
         </section>
-        <section>
+        <section className="reset">
           <button onClick={this.resetItems}>Disassemble All</button>
         </section>
       </div>
